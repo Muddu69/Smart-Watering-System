@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="screen6.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="div1">
+        <img
+          class="dashboardIcon"
+          src="/images/Dashboard icon.png"
+          alt="Image of dashboard icon"
+        />
+        <img
+          class="leftside"
+          src="/images/Frame 6.png"
+          alt="Image of whole frame"
+        />
+        <a href="screen5.html">
+          <img
+            class="logOutIcon"
+            src="/images/Log Out.png"
+            alt="Image of log out Icon"
+          />
+        </a>
+      </div>
+
+      <div class="div2">
+        <h2 class="name">Hi, Zaki</h2>
+
+        <img
+          class="balanceImage"
+          src="/images/Frame 3.png"
+          alt="Shows total balnce"
+        />
+
+        <img class="graph" src="/images/Graph.png" alt="Image of Graph" />
+
+        <h3>Recent Transactions</h3>
+
+        <img
+          class="transactionImage"
+          src="/images/RecentTransaction.png"
+          alt="Image of recent transaction"
+        />
+      </div>
+
+      <div class="div3">
+        <img
+          class="rightSide"
+          src="/images/Side bar.png"
+          alt="A side bar image"
+        />
+
+        <br /><br />
+
+        <h3>Assets</h3>
+
+        <img class="btc" src="/images/BTC.png" alt="image of BTC" />
+
+        <br /><br />
+        <img class="eth" src="/images/ETH.png" alt="image of ETH" />
+      </div>
+    </div>
+  </body>
+</html>
+
+Styling
+*{
+    background-color: #26324B;
+}
+
+.maindiv{
+    height: 665px;
+    display: flex;
+}
+
+.div1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardIcon{
+    flex: 0.5;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.leftside{
+    flex: 6;
+    height: 400px;
+    width: 400px;
+    margin-left: -40px;
+}
+
+.logOutIcon{
+    flex: 0.5;
+    height: 60px;
+    width: 300px;
+    margin-top: -40px;
+}
+
+
+
+.div2{
+    flex: 2;
+    margin-left: -30px;
+}
+
+.name{
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.balanceImage{
+    margin-top: -23px;
+    margin-left: -20px;
+    width: 500px;
+    height: 140px;
+}
+
+h3{
+    margin-top: -3px;
+    color: white;
+}
+
+.transactionImage{
+    margin-top: -20px;
+    margin-left: -15px;
+    width: 600px;
+}
+
+.div3{
+    flex: 1;
+    margin-left: -30px;
+}
+
+.rightSide{
+    width: 300px;
+    height: 350px;
+    margin-top: -10px;
+}
